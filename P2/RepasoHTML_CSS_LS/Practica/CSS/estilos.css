@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contenedor{
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+header{
+    background-color: red;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    border-bottom: 10px solid white;
+    border-top: 10px solid white;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    /*Asi se comenta*/
+    
+}
+nav{
+    background-color: lightblue;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+
+#contenido{
+    float: left;
+    width: calc(80% - 80px);
+    min-width: 500px;
+    background-color: green;
+    padding: 40px;
+}
+
+.articulo{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+.articulo h2{
+    font-size: 30px;
+}
+
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    min-height: 390px;
+    background-color: orange;
+    padding: 10px;
+}
+
+footer{
+    
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+.clearfix{
+    clear: both;
+}

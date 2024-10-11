@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imagen/edificio.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vmax;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: auto;
+    text-align: center;
+    color: black;
+    padding: 100px;
+    align-items: center;
+}
+#contenedor{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+}
+
+hr{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+form{
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    text-align: center;
+    color: black;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.caja1{
+    color: black;
+    font-weight: bold;
+    font-size: 1vw;
+    width: auto;
+}
+
+#boton:hover{
+    padding: 2vw;
+    background-color: gold;
+    color: black;
+    border-radius: 100%;
+    border: 2px solid black;
+}
