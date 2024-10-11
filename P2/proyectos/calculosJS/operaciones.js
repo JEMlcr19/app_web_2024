@@ -3,7 +3,7 @@ function operacion()
     let n1=parseInt(document.getElementById("n1").value);
     let n2=parseInt(document.getElementById("n2").value);
     let tipoope=document.getElementById("tipo").value;
-
+    let ope;
     
     if (isNumber(n1) && isNumber(n2))
     {
