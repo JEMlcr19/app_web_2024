@@ -1,0 +1,100 @@
+#index{
+    background-color: silver;
+    padding: 2rem;
+    margin: 0%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    font-size: 5vmin;
+}
+
+header{
+    background-color: cadetblue;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+#btn-menu{
+    display: none;
+}
+
+header label{
+    width: 2rem;
+    height: 2rem;
+    padding: 1rem;
+    border-right: 1px solid white;
+    display: none;
+}
+
+headerlabel:hover{
+    cursor:pointer;
+}
+
+#menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+#menu li{
+    flex-grow: 1;
+    text-align: center;
+    border: 1px solid white;
+}
+
+#menu li a{
+    text-decoration: none;
+    display: block;
+    padding: 1rem 1rem;
+    color: white;
+}
+
+#menu li a:hover{
+    background-color: darkcyan;
+}
+
+/*Aplicar los estilos a la barra de navegacion con media query para que el menu se oculte y sea desplegable*/
+
+@media screen and (max-width: 768px){
+    header label{
+        display: block;
+    }
+
+    #menu{
+        width: 20%;
+        background-color: cadetblue;
+        position: absolute;
+        margin-left: -20%;
+        transition: all 0.8s;
+    }
+
+    #menu ul{
+        flex-direction: column;
+    }
+
+    #menu li{
+        border: 1px solid white;
+        text-align: left;
+    }
+
+    #menu li a{
+        border-bottom: 1px solid white;
+    }
+
+    /*Utilizar el input checkbox a través del label para que controlar el menu aparezca o desaparezca*/
+    #btn-menu:checked ~ #menu{
+        margin-left: 0;
+    }
+
+    main{
+        margin: 1rem;
+    }
+
+    main p{
+        margin: 1rem;
+    }
+    
+}

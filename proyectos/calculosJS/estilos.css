@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imagen/edificio.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vmax;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: auto;
+    text-align: center;
+    color: black;
+    padding: 100px;
+    align-items: center;
+}
+#contenedor{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+    background-color: rgb(60, 59, 59);
+}
+
+hr{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+form{
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    text-align: center;
+    color: black;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.caja1{
+    color: black;
+    font-weight: bold;
+    font-size: 2vw;
+    width: auto;
+}
+
+#boton:hover{
+    padding: 2vw;
+    background-color: gold;
+    color: black;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+#boton{
+    margin-top: 3vw;
+    padding: 2vw;
+    background-color: blue;
+}
+
+.caja2{
+    color: black;
+    font-weight: bold;
+    font-size: 2vw;
+    width: auto;
+}
+
+#boton:active{
+    background-color: rgb(11, 198, 36);
+    border: 2px solid rgb(12, 166, 38);
+}
+
+#resultado {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #000; 
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%; 
+    text-align: center; 
+    background-size: cover;
+    background-position: center;
+}

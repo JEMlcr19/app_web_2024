@@ -1,0 +1,10 @@
+section img{
+    display: block;
+    width: 32rem;
+    height: 32rem;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
