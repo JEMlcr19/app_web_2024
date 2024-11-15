@@ -1,0 +1,24 @@
+<!-- filepath: /c:/Users/jose_/iCloudDrive/UTD/Aplicaciones web/APP_WEB_2024/P3/ManualDjango/proyectoUTD/mainapp/migrations/templates/layouts/layouts.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}
+        {% comment "" %}
+            aqui va el contenido del bloque title
+        {% endcomment %}
+        {% endblock title %}
+    </title>
+</head>
+<body>
+    <h1>Bienvenido a mi app web en Django</h1>
+    <h2>Desarrollo web con python y Django</h2>
+    {% block  %}
+   {% comment %}  
+   Aqui va el contenido de mi bloque content 
+   {% endcomment %}
+    {% endblock  %}
+</body>
+</html>
