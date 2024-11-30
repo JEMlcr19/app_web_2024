@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}
+            Django Proyecto UTD
+        {% endblock title %}
+    </title>
+    <link rel="stylesheet" href="{% static "css/estilos.css" %}" type="text/css">
+</head>
+
+<body>
+    <header>
+        <div id="logotipo">
+            <img src="{% static "img/logo_django.png" %}" alt="Imagen Django" title="Django">
+            <h1>Django Proyecto Web</h1>
+        </div>
+    </header>
+<body>
+    <nav>
+        <ul>
+            <li><a href="{% url "index" %}" >Inicio</a></li>
+            <li><a href="{% url "acercade" %}">Acerca de</a></li>
+            <li><a href="{% url "mision" %}">Mision</a></li>
+            <li><a href="{% url "vision" %}">Vision</a></li>
+            <li><a href="{% url "iniciosesion" %}">Inicio de sesión</a></li>
+            <li><a href="{% url "registro" %}">Registro</a></li>
+        </ul>
+    </nav>
+
+    {% block content %}{% endblock content %}
+</body>
+</html>
+
