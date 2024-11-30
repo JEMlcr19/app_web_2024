@@ -1,0 +1,6 @@
+{% block content %}
+    <script>
+        alert('Esta página no existe, redirigiendo a página de inicio');
+        window.location.replace("{% url 'inicio' %}");
+    </script>
+{% endblock content %}
